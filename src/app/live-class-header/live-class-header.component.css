@@ -1,0 +1,34 @@
+.nav_logo{
+    /* height: 50px;
+    width: 50px; */
+    margin-left: 50px;
+}
+nav{
+    /* background-color: #006788!important; */
+    background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1))
+}
+.wrap{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 96px;
+}
+.font1{
+    font-family: "Montserrat-Bold";
+    border: solid 1px;
+    width: 212px;
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+    margin-left: 800px;
+    width: 212px;
+    border: solid 1px;
+}
+.font{
+    color: aliceblue;
+}
+.margin{
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
