@@ -1,0 +1,13 @@
+.image{
+        height: 380px;
+        width: 380px;
+    }
+    .img99{
+        margin-left: -250px;
+    }   
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }

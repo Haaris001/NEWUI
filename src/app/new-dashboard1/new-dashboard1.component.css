@@ -1,0 +1,311 @@
+
+        body {
+            background: aliceblue;
+            }
+            @media (min-width: 991.98px) {
+            main {
+            padding-left: 240px;
+               background:aliceblue
+            }
+            }
+            
+            /* Sidebar */
+            .sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            padding: 58px 0 0; /* Height of navbar */
+            /* box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%); */
+            width: 240px;
+            z-index: 600;
+            }
+            
+            @media (max-width: 991.98px) {
+            .sidebar {
+            width: 100%;
+            }
+            }
+            .sidebar .active {
+            /* border-radius: 5px; */
+            /* box-shadow: 0 2px 5px 0 rgba(228, 220, 220, 0.16), 0 2px 10px 0 rgba(240, 236, 236, 0.12); */
+            }
+            
+            .sidebar-sticky {
+            position: relative;
+            top: 0;
+            height: calc(100vh - 48px);
+            padding-top: 0.5rem;
+            overflow-x: hidden;
+            overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+            }
+            .logo{
+                width: 176px;
+                height: 74px;
+                margin-top: -10px;
+                margin-left:20px;
+            }
+            .card{
+                margin-left: 30px;
+            width: 343px;
+            height: 130px;
+            /* border: 0px solid; */
+            border-radius: 20px;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns:32% 203px;
+                font-family: Poppins-Black;
+            }
+            #sidebarMenu{
+                width: 400px;
+                margin-top: 102px;
+                background: aliceblue !important;
+            }
+            .profile{
+                width: 70px;
+                height: 70px;
+                margin-left: 10px;
+                margin-top: 10px;
+                border-radius: 50px;
+            }
+            .name{
+                margin-top: 20px;
+                font-family: Poppins-Black;
+            }
+            .main{
+                background-color: rgb(144, 185, 221);
+            }
+            .card1{
+                height: 200px;
+                width: 579px;
+                border-radius: 20px;
+                /* border: 1px solid; */
+                margin-left: 200px;
+                /* background:white; */
+                background: linear-gradient(to right, rgba(0, 81, 166, 1), rgba(1, 52, 116, 1));
+                color: #fbfbfb;
+                font-family: Poppins-Black ;
+            }
+            .imageic{
+                height: 255px;
+                width: 259px;
+                margin-top: -47px;
+                margin-left: -59px;
+                z-index: -1;
+
+            }
+            .gridSection{
+                display: grid;
+                grid-template-columns: 70% 30%;
+            }
+            #main-navbar{
+                z-index: -1;
+            }
+            .margin{
+                margin-left: 40px;
+                margin-top: 25px;
+                
+            }
+            .sub{
+                width: 149px;
+                height: 38px;
+                border-radius: 20px;
+                margin-top: 14px;
+            }
+            .font{
+                font-size: 1.36rem;
+
+            }
+            .siconsize{
+                width: 20px;
+                height: 20px;
+                margin-left: 17px;
+                margin-top: 16px;
+            }
+            .container-fluid{
+                /* margin-right: 44px; */
+                background: aliceblue;
+
+            }
+            .fixed-top {
+                right: 25px;
+                background: aliceblue;
+                padding: 0px;
+            }
+            .icon{
+                height: 54px;
+                width: 54px;
+                border-radius: 50%;
+                background:  rgba(0, 81, 166, 1);
+                color: #fbfbfb;
+                margin-left: 10px;
+            }
+            .card02{
+                height: 200px;
+                width:1000px;
+                border-radius: 20px;
+                border: 1px solid;
+                margin-left: 0px;
+                /* background:  rgb(163, 190, 220);  */
+                color: #fbfbfb;
+                font-family: Poppins-Black ;
+                margin-top: 20px;
+                background: white;
+            }
+            .card2{
+                height: 200px;
+                width:1000px;
+                border-radius: 20px;
+                border: 1px solid;
+                margin-left: 0px;
+                /* background:  rgb(163, 190, 220);  */
+                color: #fbfbfb;
+                font-family: Poppins-Black ;
+                margin-top: 20px;
+              
+            }
+            .grid01{
+                margin-top: 35px;
+                display: grid;
+                grid-template-columns: 35% 35% 106%
+            }
+
+        .buttons{
+            /* border: 1px solid rgba(42,56,219); */
+            background: white;
+            width: 145px;
+            text-align: center;
+            text-decoration: none;
+            padding: 0px 0px;
+            color: aliceblue;
+            border-radius: 20px;
+            height: 37px;
+        }
+        .cards{
+            height: 190px;
+            width: 150px;
+            border-radius: 20px;
+            background:  rgba(180, 0, 184, 1);
+            margin-top: 4px;
+            margin-left: 0px;
+
+
+        }
+        .progress{
+            width: 100px;
+            height: 5px;
+            margin-left: 10px;
+            color: #fbfbfb;
+        }
+        .carddiv{
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+        .subject{
+            margin-left: 10px;
+        }
+        .carousel-cells .carousel-cell img{
+        height: 64px;
+        width: 64px;
+        }
+        .carousel-cells .carousel-cell img, .carousel-cells .carousel-cell video{
+            height: 64px;
+        width: 64px;
+        }
+        .cards{
+            height: 190px;
+            width: 150px;
+            border-radius: 20px;
+            background:  rgba(170, 87, 180, 1);
+            margin-top: 4px;
+            margin-left: 0px;
+
+
+        }
+        .livebuttons{
+            margin-top: 10px;
+        }
+        .ripple{
+            /* height: 56px; */
+            background: aliceblue;
+            height: 73px;
+        }
+        a{
+            border: 0px;
+        }
+        .icon1{
+            margin-right: 10px;
+            height: 35px;
+            width: 35px;
+        }
+        .home{
+            margin-top: -10px;
+            margin-left: 44px;
+        }
+        .subs{
+            width: 151px;
+    height: 30px;
+    border-radius: 20px;
+    background:  rgba(0, 81, 166, 1);
+    color: #fbfbfb;
+    font-size: small;
+    text-align: center;
+        }
+
+nav{
+    background: aliceblue;
+}
+.logout{
+    height: 43px;
+    padding-top: 0px;
+    margin-top: 73px;
+    margin-left: 20px;;
+ width: 110px;
+ border-radius: 20px;
+ background:rgba(0, 81, 166, 1);
+ color: #fbfbfb;
+}
+svg{
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.div{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background:rgba(0, 81, 166, 1);
+    margin-top: -10px;  
+}
+.span{
+    margin-left: 65px;
+    margin-top: -42px;
+    position: absolute;
+}
+.p{
+    font-size: small;
+    margin-top: -7px;
+    margin-left: 0px;
+    color: gray;
+}
+.img{
+    margin-top: 7px;
+    margin-right: 0px;
+    margin-left: 7px;
+
+}
+.linegrid{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.vl {
+    border-left: 1px solid gray;
+    height: 744px;
+    margin-left: 25px;
+    /* border-left-width: 2px; */
+    margin-top: -148px;
+  }
+  .ptag{
+    font-size: small;
+    color: gray;
+  }

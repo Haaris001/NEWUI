@@ -1,4 +1,298 @@
-/* body {
+
+.wraper{
+    /* font-family: "Montserrat-Regular"; */
+    /* background-color: #006788!important; */
+    /* background: linear-gradient(to right, rgba(255, 219, 0, 1), rgba(245, 185, 0, 1)); */
+
+    /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)) */
+
+    
+}
+
+
+.align{
+    
+}
+.border{
+        border: solid 1px;
+        width: 470px;
+        /* background-color: #006788!important; */
+        /* background: linear-gradient(to right, rgba(255, 219, 0, 1), rgba(245, 185, 0, 1)); */
+
+        /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)); */
+        border-radius: 10px;
+        height: 40px;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.font{
+    /* font-family: "Montserrat-Regular"; */
+    /* font-family: "Montserrat-Bold"; */
+    /* font-family: "Montserrat-Light"; */
+}
+.font1{
+    /* font-family: "Montserrat-Bold"; */
+    color: black
+}
+.wrap{
+    display: grid;
+    grid-template-columns:10% 20% 15% 20% 10% 20%;
+    margin-left: 0px;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+    .rows{
+            width: 118px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .image{
+        width: 496px;
+        height: 297px;
+        border: black 1px;
+    }
+    
+    .crumbs
+    {
+        display: grid;
+        grid-template-columns: 40.33% 33.33% 33.33% ;
+    }
+    .bredcrumbs{
+        display: grid;
+        grid-template-columns: 33.33% 33.33%;
+        margin-left: -84px;
+    }
+    .size{
+        width: 35px;
+        height: 50px;
+    }
+
+    body{
+        background-color: #f4f7f6;
+        margin-top:20px;
+    }
+    .card {
+        background: #fff;
+        transition: .5s;
+        border: 0;
+        margin-bottom: 30px;
+        border-radius: .55rem;
+        position: relative;
+        width: 100%;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    }
+   
+    
+    .chat-app .chat {
+        /* margin-left: 280px; */
+        border-left: 1px solid #eaeaea;
+        width: 515px;
+        
+    }
+    .chat-app{
+        width: 515px;
+    } 
+    
+   
+   
+    .chat .chat-header {
+       
+        border-bottom: 2px solid #f4f7f6;
+        border-radius: 40px;
+    }
+    
+    .chat .chat-header img {
+        float: left;
+        border-radius: 40px;
+        width: 40px
+    }
+    
+    .chat .chat-header .chat-about {
+        float: left;
+        padding-left: 10px
+    }
+    
+    .chat .chat-history {
+        padding: 20px;
+        border-bottom: 2px solid #fff
+    }
+    
+    .chat .chat-history ul {
+        padding: 0
+    }
+    
+    .chat .chat-history ul li {
+        list-style: none;
+        margin-bottom: 30px
+    }
+    
+    .chat .chat-history ul li:last-child {
+        margin-bottom: 0px
+    }
+    
+    .chat .chat-history .message-data {
+        margin-bottom: 15px
+    }
+    
+    .chat .chat-history .message-data img {
+        border-radius: 40px;
+        width: 40px
+    }
+    
+    .chat .chat-history .message-data-time {
+        color: #434651;
+        padding-left: 6px
+    }
+    
+    .chat .chat-history .message {
+        color: #444;
+        padding: 18px 20px;
+        line-height: 26px;
+        font-size: 16px;
+        border-radius: 7px;
+        display: inline-block;
+        position: relative
+    }
+    
+    .chat .chat-history .message:after {
+        bottom: 100%;
+        left: 7%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-bottom-color: #fff;
+        border-width: 10px;
+        margin-left: -10px
+    }
+    
+    .chat .chat-history .my-message {
+        background: #efefef
+    }
+    
+    .chat .chat-history .my-message:after {
+        bottom: 100%;
+        left: 30px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-bottom-color: #efefef;
+        border-width: 10px;
+        margin-left: -10px
+    }
+    
+    .chat .chat-history .other-message {
+        background: #e8f1f3;
+        text-align: right
+    }
+    
+    .chat .chat-history .other-message:after {
+        border-bottom-color: #e8f1f3;
+        left: 93%
+    }
+    
+    .chat .chat-message {
+        padding: 20px
+    }
+    
+    .online,
+    .offline,
+    .me {
+        margin-right: 2px;
+        font-size: 8px;
+        vertical-align: middle
+    }
+    
+    .online {
+        color: #86c541
+    }
+    
+    .offline {
+        color: #e47297
+    }
+    
+    .me {
+        color: #1d8ecd
+    }
+    
+    .float-right {
+        float: right
+    }
+    
+    .clearfix:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .chat-app .people-list {
+            height: 465px;
+            width: 100%;
+            overflow-x: auto;
+            background: #fff;
+            left: -400px;
+            display: none
+        }
+        .chat-app .people-list.open {
+            left: 0
+        }
+        .chat-app .chat {
+            margin: 0
+        }
+        .chat-app .chat .chat-header {
+            border-radius: 0.55rem 0.55rem 0 0
+        }
+        .chat-app .chat-history {
+            height: 300px;
+            overflow-x: auto
+        }
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        .chat-app .chat-list {
+            height: 650px;
+            overflow-x: auto
+        }
+        .chat-app .chat-history {
+            height: 600px;
+            overflow-x: auto
+        }
+    }
+    
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+        .chat-app .chat-list {
+            height: 480px;
+            overflow-x: auto
+        }
+        .chat-app .chat-history {
+            height: calc(100vh - 350px);
+            overflow-x: auto
+        }
+    }
+    .containers{
+        display: grid;
+        grid-template-columns: 90% 10%;
+    }
+    /* body {
     background-color: #f6f6f6;
     background-image: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 50%,
                       hsla(0,0%,0%,.015) 50%, hsla(0,0%,0%,.015) 100%),
@@ -47,75 +341,3 @@ figure:hover figcaption {
 h3 {
     font-weight: bold;
 } */
-.wraper{
-    font-family: "Montserrat-Regular";
-    /* background-color: #006788!important; */
-    background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1))
-
-    
-}
-
-
-.align{
-    
-}
-.border{
-        border: solid 1px;
-        width: 470px;
-        /* background-color: #006788!important; */
-        background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1));
-        border-radius: 10px;
-        height: 40px;
-}
-img{
-    width: 200px;
-    height: 100px;
-}
-.font{
-    font-family: "Montserrat-Regular";
-    /* font-family: "Montserrat-Bold"; */
-    /* font-family: "Montserrat-Light"; */
-}
-.font1{
-    font-family: "Montserrat-Bold";
-    color: aliceblue;
-}
-.wrap{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin-left: 0px;
-}
-.my-custom-scrollbar {
-    position: relative;
-    height: 200px;
-    overflow: auto;
-    }
-    .table-wrapper-scroll-y {
-    display: block;
-    }
-    .rows{
-            width: 118px;
-    }
-    .container{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-    .image{
-        width: 496px;
-        height: 297px;
-        border: black 1px;
-    }
-    
-    .crumbs
-    {
-        display: grid;
-        grid-template-columns: 33.33% 33.33% 33.33% ;
-    }
-    .bredcrumbs{
-        display: grid;
-        grid-template-columns: 33.33% 33.33% 33.33% ;
-    }
-    .size{
-        width: 35px;
-        height: 50px;
-    }

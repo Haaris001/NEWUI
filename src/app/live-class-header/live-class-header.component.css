@@ -4,8 +4,8 @@
     margin-left: 50px;
 }
 nav{
-    /* background-color: #006788!important; */
-    background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1))
+    background-color: #006788!important;
+    /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)) */
 }
 .wrap{
     display: grid;

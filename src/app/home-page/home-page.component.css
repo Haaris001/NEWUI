@@ -1,28 +1,36 @@
 .nav_logo{
-    /* height: 50px;
-    width: 50px; */
-    margin-left: 50px;
+    width: 312px;
+    height: 265px;
+    margin-left: 28px;
 }
 nav{
-    /* background-color: #006788!important; */
-    background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1))
+    /* background-color: yellow!important; */
+    background: linear-gradient(to right, rgba(255, 219, 0, 1), rgba(245, 185, 0, 1));
+    height: 140px;
+
+    /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)) */
+    /* background-color: #006788; */
 }
 /* .login{
 margin-left: 1000px;
 } */
 button{
     border-radius: 10px;
-    margin-left: 800px;
+    margin-left: 729px;
     width: 212px;
-    border: solid 1px;
+    /* border: solid 1px; */
+    background: rgba(18,31,137);
+
 }
 body{
     /* background: #006788!important; */
 
 }
 .kid{
-    width: 300px;
+    /* width: 300px; */
     height: 500px;
+    width: 400px;
+    margin-top: 350px;
 }
 div{
     /* background-color: #006788!important;
@@ -31,7 +39,7 @@ div{
 }
 .wrapper{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 25% 25%;
 }
 .font{
     font-family: "Cooper";
@@ -51,6 +59,8 @@ div{
     /* display: grid;
     grid-template-columns: 60% 25% 25%;
     margin-left: 96px; */
+    margin-top: -120px;
+    margin-left: -42px;
 }
 .color{
     border-radius: 10px;
@@ -65,9 +75,11 @@ div{
     width: 212px;
     border-radius: 10px;
     color: aliceblue;
+    
 }
 .gradient{
-    background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1))
+    background: linear-gradient(to right, rgba(255, 219, 0, 1), rgba(245, 185, 0, 1))
+    /* background-color: rgb(240, 240, 6) */
 }
 .butto{
     border: none;
@@ -134,15 +146,92 @@ div{
             left: 110px;
         }
         .align-item{
-            left:210px
+            left: 562px;
         }
         .align-item2{
-            margin-left: 220px;
+            /* margin-left: 220px; */
+            margin-left: 619px;
             color: aliceblue;
         }
         .align-item1{
-            margin-left: 222px;
+            /* margin-left: 222px;
+             */
+             margin-left: 550px;
             color: aliceblue;
             margin-top: 20px;
         }
+        .learninImage{ 
+    margin-top: -61px;
+    width: 683px;
+    /* margin-left: 275px; */
+        }
+        .dropdown{
+            margin-left: 500px;
+            width: 522px;
+    height: 65px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 500;
+
+        }
         
+
+select{
+    width: 268px;
+    padding: 5px;
+    font-size: 30px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 34px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right rgba(18,31,137);
+    -webkit-appearance: none;
+    background-position-x: 478px;
+    color: #d9d4e7;
+}
+        hr {
+        
+           background-color: rgba(0, 137, 175, 1);
+        }
+
+        .imageAlign{
+            margin-top: 200px;
+        }
+        .text2{ 
+            margin-left: 26px;
+        }
+        .text1{
+            margin-left: 175px;
+        }
+        
+        .other{
+            color: #a560b1;
+        } 
+        h3{
+            color: rgba(18,31,137);
+        }
+        .go
+        {
+            height: 51px;
+            margin-left: 273px;
+            width: 161px;
+            margin-top: -184px;
+            background: rgba(18,31,137);
+        }
+        .go1{
+            font-size: 25px;
+            color: #d9d4e7;
+            align-items: center;
+        }
+        .login{
+            color: #d9d4e7;
+            align-items: center;
+        }
+        .image99{
+            width: 400px;
+            height: 400px;
+            margin-bottom: 0px;
+            margin-top: -53px;
+            margin-left: 33px;
+        }

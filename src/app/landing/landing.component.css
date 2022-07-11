@@ -1,0 +1,33 @@
+.nav_logo{
+    /* width: 312px; */
+    height: 265px;
+    margin-left: 28px;
+    margin-top: 31px;
+    width: 281px;
+
+}
+nav{
+    /* background-color: yellow!important; */
+    /* background: linear-gradient(to right, rgba(255, 219, 0, 1), rgba(245, 185, 0, 1)); */
+    height: 140px;
+    background-color: white;
+
+    /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)) */
+    /* background-color: #006788; */
+}
+button{
+    border-radius: 10px;
+    margin-left: 331px;
+    width: 212px;
+    /* border: solid 1px; */
+    background: rgba(42,56,219);
+    color: aliceblue;
+
+}
+.nav-ele:hover,
+.nav-ele.active
+{
+    background-color: rgb(252, 232, 0);
+    color: black;
+    
+}

@@ -1,7 +1,9 @@
 .wraper{
     font-family: "Montserrat-Regular";
     /* background-color: #006788!important; */
-    background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1));
+    /* background: linear-gradient(to right, rgba(255, 219, 0, 1), rgba(245, 185, 0, 1)); */
+
+    /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)); */
 
     
 }
@@ -11,11 +13,13 @@
     
 }
 .border{
-        border: solid 1px;
+        /* border: solid 1px; */
         width: 600px;
         /* background-color: #006788!important; */
-        background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1));
-        border-radius: 10px;
+        /* background: linear-gradient(to right, rgba(255, 219, 0, 1), rgba(245, 185, 0, 1)); */
+
+        /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)); */
+        /* border-radius: 10px; */
         height: 40px;
 }
 img{
@@ -23,17 +27,19 @@ img{
     height: 100px;
 }
 .font{
-    font-family: "Montserrat-Regular";
+    /* font-family: "Montserrat-Regular"; */
     /* font-family: "Montserrat-Bold"; */
     /* font-family: "Montserrat-Light"; */
 }
 .font1{
-    font-family: "Montserrat-Bold";
-    color: aliceblue;
+    /* font-family: "Montserrat-Bold"; */
+    color: black;
 }
 button{
     margin-left: 470px;
     /* background-color: #006788!important; */
-    background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1))
+    /* background: linear-gradient(to right, rgba(255, 219, 0, 1), rgba(245, 185, 0, 1)); */
+
+    /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)) */
 
 }

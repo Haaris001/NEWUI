@@ -1,0 +1,13 @@
+.wrap{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.img{
+    /* height: 500px; */
+    /* width: 500px; */
+    margin-left: 66px;
+    width: 566px;
+    /* height: 542px; */
+    height: 512px;
+}

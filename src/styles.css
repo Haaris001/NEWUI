@@ -15,6 +15,17 @@
     font-family: "Montserrat-Light";
     src: local("Montserrat-Light"), url(./assets/fonts/Montserrat-Light.ttf) format("truetype");
 }
-body{
-    /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1)); */
+@font-face {
+    font-family: "Poppins-Black";
+    src: local("Poppins-Black"), url(./assets/fonts/Poppins/Poppins-Medium.ttf) format("truetype");
 }
+body{
+    font-family:Poppins-Black;
+    scroll-behavior: smooth;
+    background: aliceblue;
+     /* background: linear-gradient(to right, #006788, rgba(166, 193, 238, 1));  */
+     /* background-color: #006788; */
+}
+html {
+    scroll-behavior: smooth;
+  }

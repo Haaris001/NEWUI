@@ -1,0 +1,41 @@
+.cards{
+height:365px; ;
+border: 1px solid;
+}
+.logo{
+    height: 265px;
+    margin-left: 28px;
+    margin-top: -20px;
+    width: 281px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50%;
+    background-color: white(142, 138, 138);
+    /* height: 406px; */
+    width: 306px;
+    margin-left: 500px;
+    height: 305px;
+   
+    padding-left: 37px;
+    margin-top: -32px;
+    background: linear-gradient(to right, rgb(230, 229, 224), rgb(248, 247, 244));
+
+}
+.subscribe{
+    height:200px; ;
+border: 1px solid;
+margin-left: 100px;
+margin-right: 100px;
+border-radius: 20px;
+}
+.navi{
+    width: 116px;
+    height: 41px;
+    border-radius: 25px;
+}

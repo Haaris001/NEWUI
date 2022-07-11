@@ -1,0 +1,16 @@
+.wraper{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.imgcard{
+    height: 200px;
+    width: 200px;
+}
+.wrap{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+h2{
+    margin-top: 75px;
+    color: rgba(18,31,137);
+}
